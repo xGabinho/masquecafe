@@ -1,0 +1,23 @@
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    z-index: 1;
+}
+
+.menu-price {
+    position: absolute;
+    margin: 0;
+    top: -35px;
+    right: 20px;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background: #DA9F5B;
+}

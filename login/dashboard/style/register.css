@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --main-color: #d6b991;
+    --black: #292929;
+    --bg: #131313;
+    --border: .1rem solid rgba(255,255,255)
+}
+
+a{
+    text-decoration: none;
+}
+
+.container .signup-section .logo{
+    width: 50px;
+    height: 50px;
+    margin-top: -45px;
+    margin-left: 24%;
+    position: absolute;
+    background-size: cover;
+}
+
+.signup-section .regis{
+    color: var(--main-color);
+}
+
+
+.signup-section{
+    position: relative;
+    width: 460px;
+    height: 500px;
+    padding: 20px 30px 120px;
+    margin-left: 23%;
+    background: var(--bg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: var(--border);
+}
+
+
+.signup-section header{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.registrar{
+    margin-left: 15%;
+    color: var(--main-color);
+}
+
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+form input{
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    color: black;
+    height: 40px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid #aaa;
+}
+
+form input::placeholder{
+    color: black;
+}
+
+form a{
+    color: black;
+}
+
+.signup-section form a{
+    color: black;
+}
+
+form .btn1{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #d6b991;
+}
+

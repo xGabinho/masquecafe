@@ -1,0 +1,51 @@
+
+
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre las cartas */
+    width: 100%; /* Contenedor ocupa el 100% del ancho */
+    justify-content: center; /* Centra las cartas dentro del contenedor */
+    align-items: center; /* Centra el contenedor verticalmente */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+    width: 500px; /* Ajusta el ancho de las cartas */
+}
+
+.star-rating {
+    display: flex;          /* Usar flexbox */
+    align-items: center;   /* Centrar verticalmente los íconos, si es necesario */
+    justify-content: center;
+}
+
+.star-rating i {
+    margin: 0 5px; /* Espaciado entre las estrellas (horizontal) */
+    font-size: 24px; /* Ajusta el tamaño de las estrellas según sea necesario */
+    color: yellow;
+}
+
+
+.image-container {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    height: 100px; /* Mantiene la proporción circular */
+    overflow: hidden;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin: 0 auto 10px; /* Centra la imagen */
+    display: flex; /* Asegura que la imagen se centre */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.image-container img {
+    min-width: 100%; /* Asegura que la imagen cubra el contenedor */
+    min-height: 100%; /* Asegura que la imagen cubra el contenedor */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen no tenga espacio extra */
+}
