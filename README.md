@@ -28,6 +28,10 @@ Permite registrar, visualizar y administrar información mediante una interfaz w
 Abre el proyecto en tu navegador:
 👉 http://localhost/masquecafe
 
+5. Usuario de Admin por defecto: jeffrey@gmail.com  -  qweasd123
+
+6. Para iniciar como usuario comun debes crear una que se guarda en la base de datos local 
+
 ## 👤 Autor
 Desarrollado por **Gabriel Quevedo**  **Jeffrey Suárez**
 📚 Proyecto académico del **SENA – Análisis y Desarrollo de Software**
